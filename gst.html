@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" conteent="width=device-width, initial-scale=1.0">
+	<title>GST income tax</title>
+	<link rel="stylesheet" href="gst.css">
+	<link  href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<body>
+<section class="header">
+	<nav>
+		<a href=""><img src="images/logo.png"></a>
+   <div class="nav-links" id="navlinks">
+   	<i class="fa fa-times" onclick="hidemenu()"></i>
+	<ul>
+		<li><a href="">Home</a></li>
+		<li><a href="">About Us</a></li>
+		<li>
+			    
+           <div class="dropdown">
+           	<a class=" dropdown-toggle" href="#" role="button" id="dropdownMenuLink dropdownMenu1" data-toggle="dropdown" >Services</a>
+            <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+                <li class="dropdown-submenu">
+                  <a  class="dropdown-item"  href="#">Goods and Serices Tax</a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-submenu">
+                      <a class="dropdown-item" href="#">GST Registration</a>
+                      <a class="dropdown-item" href="#">GST Return Filing.</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="dropdown-submenu">
+                  <a  class="dropdown-item"  href="#">Company Incorporation</a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-submenu">
+                      <a class="dropdown-item" href="#">Private Limited</a>
+                      <a class="dropdown-item" href="#">One Person Company</a>
+                      <a class="dropdown-item" href="#">Limited LiabilityPartnership.</a>
+                      <a class="dropdown-item" href="#">Partnership Registration</a>
+                      <a class="dropdown-item" href="#">Proprietor Registration</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="dropdown-submenu">
+                  <a  class="dropdown-item"  href="#">Business Registration</a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-submenu">
+                      <a class="dropdown-item" href="#">Even More..</a>
+                      <a class="dropdown-item" href="#">Even More..</a>
+                      <a class="dropdown-item" href="#">Even More..</a>
+                      <a class="dropdown-item" href="#">Even More..</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="dropdown-submenu">
+                  <a  class="dropdown-item"  href="#">Return Filing</a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-submenu">
+                      <a class="dropdown-item" href="#">Even More..</a>
+                      <a class="dropdown-item" href="#">Even More..</a>
+                      <a class="dropdown-item" href="#">Even More..</a>
+                      <a class="dropdown-item" href="#">Even More..</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="dropdown-submenu">
+                  <a  class="dropdown-item"  href="#">Labour Laws</a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-submenu">
+                      <a class="dropdown-item" href="#">Even More..</a>
+                      <a class="dropdown-item" href="#">Even More..</a>
+                      <a class="dropdown-item" href="#">Even More..</a>
+                      <a class="dropdown-item" href="#">Even More..</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="dropdown-submenu">
+                  <a  class="dropdown-item"  href="#">Annual Compliance</a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-submenu">
+                      <a class="dropdown-item" href="#">Even More..</a>
+                      <a class="dropdown-item" href="#">Even More..</a>
+                      <a class="dropdown-item" href="#">Even More..</a>
+                      <a class="dropdown-item" href="#">Even More..</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="dropdown-submenu">
+                <a  class="dropdown-item"  href="#">Accounting</a>
+                <a  class="dropdown-item"  href="#">Import Export Code</a>
+                </li>
+              </ul>
+        </div>
+
+		</li>
+		<li><a href="">Contact Us</a></li>
+	</ul>
+	</div>
+	<i class="fa fa-bars" onclick="showmenu()" ></i>
+</nav>
+<div class="text-box">
+	<h1>A Complete Solutions On GST Registration</h1>
+	<p>We are always in you service and support</p>
+	<a href="" class="know-btn">Visit Us To Know More</a>
+</div>
+</section>
+<!-------GST registration----------------------------------------------->
+
+<section class="gst-reg">
+	<h1>GST Registration</h1>
+	<div class="row">
+     	<div class="gst-col">
+     		<h3>What is GST?</h3>
+     		<p>GST (goods and service tax) has been treated as one of the major tax reforms of all time. It will now be known as the one and only tax customers need to pay as a replacement of VAT, service tax, excise duty, luxury tax, etc and It combines indirect tax for the whole country and make this country a single market where everyone is bound to get a GST registration Online.</p>
+     	</div>
+     	<div class="gst-col">
+     		<h3>What is GST Registration?</h3>
+     		<p>GST is a kind of registration where people need to submit their legal documents and get a unique GST number online which will represent them uniquely in the market.</p>
+     	</div>
+     	<div class="gst-col">
+     		<h3>How to get certificate of GST registration?</h3>
+     		<p>When the annual turnover starts exceeding Rs 40 lakh and in hilly and N.E states is Rs. 20 lakh or exchange of goods and services are upgraded to interstate then you have to do a GST Online Registration and it is better to get your new GST Registration certificate online since it is easy and quick with the help of certain professionals.</p>
+     	</div>
+     </div>
+     <h1>Types of GST Tax ?</h1>
+     <div class="row">
+     	<div class="gst-type-col">
+     		<h3>CGST</h3>
+     		<p>Also known as Central goods and service tax. Applicable when the exchange of goods is within the same state and collected by the central government.</p>
+     	</div>
+     	<div class="gst-type-col">
+     		<h3>SGST</h3>
+     		<p>Also known as State goods and service tax. Applicable when the exchange of goods is within the same state and collected by the State government.</p>
+     	</div>
+     	<div class="gst-type-col">
+     		<h3>IGST</h3>
+     		<p>Also known as Integrated goods and service tax. Applicable when the exchange of goods is between more than one state and collected by the central government.</p>
+     	</div>
+     	<div class="gst-type-col">
+     		<h3>UTGST or UGST</h3>
+     		<p>lso known as union territory goods and service tax. Applicable when the exchange of goods is in some union territory and collected by the central government.</p>
+     	</div>
+     </div>
+      <h1>What are the Benefits of GST Registration?</h1>
+
+<button class="gstbenifits">Easy and Minimum Compliances</button>
+<div class="content">
+  <p>Yes after GST implementation, the compliances (like GST Returns) have become user-friendly and easy because now the taxpayer only needs to pay single indirect tax and the easy procedure of GST returns filing is also attractive. The necessary instructions and guides related to GST compliance are available on the official GST portal www.gst.gov.in which can help in the completion of compliance.</p>
+  <h3>These are few kinds of GST returns:</h3>
+  <p>(GSTR 1, GSTR 2, GSTR 3, GSTR 4, GSTR 5, GSTR 6, GSTR 7, GSTR 8, GSTR 9) for all the GST dealers in India, there are no various GST returns at the state level.</p>
+</div>
+<button class="gstbenifits">One Portal for all</button>
+<div class="content">
+  <p>Implementation of GST has made it possible for all the GST registered dealers to file their return on the same portal www.gst.gov.in.Different kinds of activities related to GST such as payment of tax returns, GST Online Registration for new dealers and refunds can be done on the same portal by every registered dealer.</p>
+</div>
+<button class="gstbenifits">Same Method or Procedure</button>
+<div class="content">
+  <p>Since the GST registration portal is a single and the same portal for all dealers in India, the method and the procedure for a new dealer, tax payment or return filing becomes the same providing ease to the dealers.</p>
+</div>
+<button class="gstbenifits">Decreases Burden of Tax</button>
+<div class="content">
+  <p>GST Online Registration has been proved to be helpful for reducing the tax burden on small scale industries by providing a single indirect tax all over the nation.</p>
+</div>
+<button class="gstbenifits">Get Input Tax Credit</button>
+<div class="content">
+  <p>Dealers register under GST can claim input tax credit already paid on purchases.</p>
+</div>
+<button class="gstbenifits">Scheme for Small Traders</button>
+<div class="content">
+  <p>GST registration has provided a composition scheme for the ease of small traders and businessmen. According to this scheme, small traders are allowed to register and pay a very low and fixed rate of tax to the government which is generally fixed at 1-5% of their taxable turnover.</p>
+</div>
+<button class="gstbenifits">E-Commerce Business</button>
+<div class="content">
+  <p>GST certificate has given a major benefit for the e-commerce website because without a GST number no one can commence an online E-Commerce business. For example Amazon, Flipkart, club factory Myntra, etc.</p>
+</div>
+<button class="gstbenifits">Boosting Economy</button>
+<div class="content">
+  <p>The reduction of the tax burden has proved to increase the consumption level. Since we know that when the price falls down the consumption increases and this is the exact situation where the tax rates have decreased and as a result consumption level has increased. This, in turn, will increase production and boost the economy in the long run.
+   Documents Required for GST Registra</p>
+</div>
+<h1>Documents Required for GST Registration Online</h1>
+<div class="row">
+	<div class="doc">
+     		<h3><i class="fa fa-picture-o" ></i></h3>
+     		<p>Required Passport size Photo</p>
+     	</div>
+     	<div class="doc">
+     		<h3><i class="fa fa-id-card-o" > </i></h3>
+     		<p>Required proof of Identity/Required Address proof</p>
+     		<p>Adhar card/pan card/voter card/driving licence</p>
+     	</div>
+     	<div class="doc">
+     		<h3><i class="fa fa-address-card-o"></i></h3>
+     		<p>Required Address proof both company and home(permanent/rental)</p>
+     		<p>Rentel agreement required/ electricity bill  </p>
+     	</div>
+     	<div class="doc">
+     		<h3><i class="fa fa-university" ></i></h3>
+     		<p>Required Proof of bank account </p>
+     	</div>
+</div>
+</section>
+<!-----------------------------process---------------------------------------------->
+<section class="procedure">
+ <div class="timeline">
+	<h1>Process of GST Registration in India</h1>
+<div class="container mt-5 mb-5">
+	<div class="row">
+		<div class="col-md-6 offset-md-3">
+			<ul class="timeline">
+				<li>
+					<a href="#">step 1</a>
+					<p>Free Consultation from Legal Salaah</p>
+				</li>
+				<li>
+					<a href="#">step 2</a>
+					<p>Drafting of Documents</p>
+				</li>
+				<li>
+					<a href="#">step 3</a>
+					<p>Make Payment Online</p>
+				</li>
+				<li>
+					<a href="#">step 4</a>
+					<p>Upload Documents</p>
+				</li>
+				<li>
+					<a href="#">step 5</a>
+					<p>ARN Registration</p>
+				</li>
+				<li>
+					<a href="#">step 6</a>
+					<p>Get GST Registration On Email</p>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+</div>
+ </section>
+ <!----------gst mandotaroy-------------------------------------------------->
+ <section class="mandatory">
+ 	<h1>Our Global Campus</h1>
+    	<p>GSt can turn over of our life </p>
+ 	<div class="row">
+     	<div class="mand-col">
+     		<img src="images/ecom.png">
+     		<div class="layer">
+     			<h3>To start an e-commerce business it is mandatory to get a GST number which can only be received after a GST certificate Number.</h3>
+     		</div>
+     	</div>
+     	<div class="mand-col">
+     		<img src="images/turnover.png">
+     		<div class="layer">
+     			<h3>Businessman and traders the turnover of more than 40 lakh rupees in normal states and 20 lakh rupees in special states should have a GST number by getting a GST certificate.</h3>
+     		</div>
+     	</div>
+     	<div class="mand-col">
+     		<img src="images/nri.png">
+     		<div class="layer">
+     			<h3>Any NRI who wants to start a business in India must get GST registration & a GST number before commencing its business in India.</h3>
+     		</div>
+     	</div>
+     </div>
+ </section>
+ <!-------------------------tax sales----------------------------------->
+ <section class="sales">
+ 	<h1>GST Tax Slabs</h1>
+ 	<div class="row">
+     	<div class="sales-col">
+     		<h3>Nil GST Rate</h3>
+     		<p>Dried tamarind, plates, cups, made of flowers, leaves and bark.</p>
+     		<h3>5% GST Rate</h3>
+     		<p>Aircraft maintenance, repair, overhaul services, outdoor catering without ITC, Marine fuel, Specified goods for petroleum operation under help, wet grinders (consisting of stone as a grinder).</p>
+     	</div>
+     	<div class="sales-col">
+     		<h3>12% GST Rate</h3>
+     		<p>Hand matches and other than hand matches, slide fasteners are woven/non-woven polyethylene packaging bags, hotels (room tariff from Rs. 1,001 to Rs. 7,500), And other job work, supplies of railways wagons & coaches (without refund of accumulated ITC).</p>
+     	</div>
+     	<div class="sales-col">
+     		<h3>18% GST Rate</h3>
+     		<p>Almond milk, Hotels (Room tariff of Rs. 7501 or above), Mobile phones and specified parts, woven and non-woven Fabric, sacks of polythene and polypropylene in nature..</p>
+
+     	</div>
+     	<div class="sales-col">
+     		<h3>28% GST Rate</h3>
+     		<p>Lotteries (state-owned, and state-authorized).</p>
+     	</div>
+     </div>
+ </section>
+
+ <!--------------------dealers-------------------------------------------------->
+ <section class="dealers">
+ 		<h1>Types of Dealers who have GST Registration</h1>
+ 	<div class="row">
+     	<div class="mand-col">
+     		<img src="images/rdeal.png">
+     		<div class="layer">
+     			<h3>The regular dealers require normal compliance. The dealers are allowed to claim the input tax credit and need to pay tax between 0-28% depending on the type of business. They are required to file returns on a monthly basis and they must provide a tax invoice to their customers.</h3>
+     		</div>
+     	</div>
+     	<div class="mand-col">
+     		<img src="images/cdeal.png">
+     		<div class="layer">
+     			<h3>Less compliances are required to file under the composition dealer scheme. They are not allowed to claim the input tax credit and their fixed tax rates vary from 1-5%. The dealers are allowed to files returns on a quarterly basis and not allowed to issue a tax invoice to their customers.</h3>
+     		</div>
+     	</div>
+     </div>
+ </section>
+ 
+ <!------------------Calculation-------------------------------------->
+
+ <section class="calculation">
+ 	<h1>Calculation of Tax under GST Return</h1>
+ 	<h2>Old Law for the adjustment</h2>
+ 	<table class="table">
+    <thead>
+      <tr>
+        <th>Output Tax</th>
+        <th>Set Off 1</th>
+        <th>Set Off 2</th>
+        <th>Set Off 3</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>CGST</td>
+        <td>CGST</td>
+        <td>IGST</td>
+        <td>--</td>
+      </tr>
+      <tr>
+        <td>SGST</td>
+        <td>SGST</td>
+        <td>IGST</td>
+        <td>--</td>
+      </tr>
+      <tr>
+        <td>IGST</td>
+        <td>IGST</td>
+        <td>CGST</td>
+        <td>SGST</td>
+      </tr>
+    </tbody>
+  </table>
+  <h2>As per rules effective 1st February 2019, New Law for the adjustment</h2>
+  	<table class="table">
+    <thead>
+      <tr>
+        <th>Output Tax</th>
+        <th>Set Off 1</th>
+        <th>Set Off 2</th>
+        <th>Set Off 3</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>CGST</td>
+        <td>IGST</td>
+        <td>CGST</td>
+        <td>--</td>
+      </tr>
+      <tr>
+        <td>SGST</td>
+        <td>IGST</td>
+        <td>SGST</td>
+        <td>--</td>
+      </tr>
+      <tr>
+        <td>IGST</td>
+        <td>IGST</td>
+        <td>CGST</td>
+        <td>SGST</td>
+      </tr>
+    </tbody>
+  </table>
+ </section>
+ <!-------------------------priceing--------------------------------------->
+ <section class="pack">
+ 	<h1>PACKAGES</h1>
+
+<div class="pack-col">
+  <ul class="price">
+    <li class="top">Basic</li>
+    <li class="grey">₹199/-</li>
+    <li>GST Registration</li>
+    <li>Get ARN in 3 Days</li>
+    <li>Guidance on HSN/SAC Code</li>
+    <li class="grey"><a href="#" class="button">Order Now</a></li>
+  </ul>
+</div>
+
+<div class="pack-col">
+  <ul class="price">
+    <li class="top">Standard</li>
+    <li class="grey">₹2,499/-</li>
+    <li>GST Registration</li>
+    <li>Get ARN in 3 Days</li>
+    <li>Invoice Complete</li>
+    <li>Guidance on HSN/SAC Code</li>
+    <li>GST Tax List</li>
+    <li>GST Pro Support</li>
+    <li class="grey"><a href="#" class="button">Order Now</a></li>
+  </ul>
+</div>
+
+<div class="pack-col">
+  <ul class="price">
+    <li class="top">Premium</li>
+    <li class="grey">₹3,499/-</li>
+    <li>GST Registration</li>
+    <li>Get ARN in 3 Days</li>
+    <li>Invoice Complete</li>
+    <li>Guidance on HSN/SAC Code</li>
+    <li>GST Tax List</li>
+    <li>GST Pro Support</li>
+    <li>Class 2 DSC</li>
+    <li class="grey"><a href="#" class="button">Order Now</a></li>
+  </ul>
+</div>	
+ </section>
+ <!--------------------------saalah-------------------------------------->
+ <section class="salah">
+ 	<h1>How can Legal Salaah help you?</h1>
+ 	<div class="row">
+     	<div class="mand-col">
+     		<img src="images/easy.png">
+     		<div class="layer">
+     			<h3>Get easy online GST registration and you also get a GST identification number.</h3>
+     		</div>
+     	</div>
+     	<div class="mand-col">
+     		<img src="images/guide.png">
+     		<div class="layer">
+     			<h3>Our experts can help you by giving complete guidance and help you avoid hassles.</h3>
+     		</div>
+     	</div>
+     	<div class="mand-col">
+     		<img src="images/com.png">
+     		<div class="layer">
+     			<h3>Avoid late penalties by choosing us as we take complete responsibility for filing your returns timely.</h3>
+     		</div>
+     	</div>
+     	<div class="salah-col">
+     	<p>Our legal team can also help you do your GST registration in Delhi and clear all your doubts by physically talking to them. Even though submitting forms and filing returns looks like an easy task because of the user-friendly interface of the GST portal but to avoid any mistakes and make sure whatever you submit is correct that there are no mistakes in audit you are recommended to take the guidance of a professional before submitting the application.</p>
+     </div>
+     </div>
+ </section>
+ <!-------------------------faq------------------------------------------>
+ <section class="faq">
+ 	<h1>FAQ on GST Registration</h1>
+ 	<button class="gstbenifits">GST Registration in brief? </i></button>
+<div class="ans">
+  <p>Yes after GST implementation, the compliances (like GST Returns) have become user-friendly and easy because now the taxpayer only needs to pay single indirect tax and the easy procedure of GST returns filing is also attractive. The necessary instructions and guides related to GST compliance are available on the official GST portal www.gst.gov.in which can help in the completion of compliance.</p>
+  <h3>These are few kinds of GST returns:</h3>
+  <p>(GSTR 1, GSTR 2, GSTR 3, GSTR 4, GSTR 5, GSTR 6, GSTR 7, GSTR 8, GSTR 9) for all the GST dealers in India, there are no various GST returns at the state level.</p>
+</div>
+<button class="gstbenifits">Process of GST registration in India?</button>
+<div class="ans">
+  <p>Implementation of GST has made it possible for all the GST registered dealers to file their return on the same portal www.gst.gov.in.Different kinds of activities related to GST such as payment of tax returns, GST Online Registration for new dealers and refunds can be done on the same portal by every registered dealer.</p>
+</div>
+<button class="gstbenifits">What is the Cost for GST Registration online?</button>
+<div class="ans">
+  <p>Since the GST registration portal is a single and the same portal for all dealers in India, the method and the procedure for a new dealer, tax payment or return filing becomes the same providing ease to the dealers.</p>
+</div>
+<button class="gstbenifits">Have you required GST registration in India?</button>
+<div class="ans">
+  <p>GST Online Registration has been proved to be helpful for reducing the tax burden on small scale industries by providing a single indirect tax all over the nation.</p>
+</div>
+<button class="gstbenifits">About GST in brief.</button>
+<div class="ans">
+  <p>Dealers register under GST can claim input tax credit already paid on purchases.</p>
+</div>
+<button class="gstbenifits">How much time does it take for Online GST Registration?</button>
+<div class="ans">
+  <p>GST registration has provided a composition scheme for the ease of small traders and businessmen. According to this scheme, small traders are allowed to register and pay a very low and fixed rate of tax to the government which is generally fixed at 1-5% of their taxable turnover.</p>
+</div>
+<button class="gstbenifits">Which taxes are supposed to come under GST?</button>
+<div class="ans">
+  <p>GST certificate has given a major benefit for the e-commerce website because without a GST number no one can commence an online E-Commerce business. For example Amazon, Flipkart, club factory Myntra, etc.</p>
+</div>
+<button class="gstbenifits">Are tobacco products included under GST?</button>
+<div class="ans">
+  <p>The reduction of the tax burden has proved to increase the consumption level. Since we know that when the price falls down the consumption increases and this is the exact situation where the tax rates have decreased and as a result consumption level has increased. This, in turn, will increase production and boost the economy in the long run.
+   Documents Required for GST Registra</p>
+</div>
+<button class="gstbenifits">What are the different types of GST?</button>
+<div class="ans">
+  <p>The reduction of the tax burden has proved to increase the consumption level. Since we know that when the price falls down the consumption increases and this is the exact situation where the tax rates have decreased and as a result consumption level has increased. This, in turn, will increase production and boost the economy in the long run.
+   Documents Required for GST Registra</p>
+</div>
+<button class="gstbenifits">What is IGST?</button>
+<div class="ans">
+  <p>The reduction of the tax burden has proved to increase the consumption level. Since we know that when the price falls down the consumption increases and this is the exact situation where the tax rates have decreased and as a result consumption level has increased. This, in turn, will increase production and boost the economy in the long run.
+   Documents Required for GST Registra</p>
+</div>
+ </section>
+ <!------------------------------contact------------------------------->
+ <section class="contact">
+ 	<h1>CONTACT US</h1>
+ 	<h2>If any Enquiry contact Us from This</h2>
+    <input type="text" id="fname" name="firstname" placeholder="Your Name..">
+    <input type="phone" id="phone" name="phone" placeholder="Phone no-.."><br>
+    <input type="subject" name="subject" placeholder="Subject" ><br>
+    <input type="email" id="lname" name="lastname" placeholder="Enter your email"><br>
+    <textarea id="subject" name="subject" placeholder="Write something.." ></textarea><br>
+    <input type="submit" value="Submit">
+  </form>
+ </section>
+ <section  class="about">
+<div class="clearfix">
+  <div class="box" >
+  <p><a href="index.html"><img src="images/logo.png" ></a></p>
+  <p><i class="fa fa-map-marker" ></i>A-1247, Second Floor, near Aggarwal Sweets,<br> GD Colony, Mayur Vihar<br> Phase III, Delhi, 110096</p>
+  <p><i class="fa fa-envelope-o" ></i> contact@legalsalaah.com</p>
+  <p><i class="fa fa-phone" ></i>+91 8766393412</p>
+  </div>
+  <div class="box" >
+  <p>FORM COMPANY</p>
+  <p><a href="">Private Limited</a></p>
+  <p><a href="">Limited Liability <br>Partnership(LLP)</a></p>
+  <p><a href="">Partnership Firm</a></p>
+  <p><a href="">Proprietor Firm</a></p>
+  </div>
+  <div class="box" >
+  <p>REGISTRATION</p>
+   <p><a href="">GST Registration</a></p>
+  <p><a href="">IEC Registration</a></p>
+  <p><a href="">FSSAI Registration</a></p>
+  <p><a href="">MSME Registration</a></p>
+  </div>
+  <div class="box" >
+  <p>GST & TAXES</p>
+   <p><a href="">GST Return Filing</a></p>
+  <p><a href="">PF Return</a></p>
+  <p><a href="">Income Tax Return</a></p>
+  <p><a href="">ESI Return</a></p>
+  <p><a href="">GST Services</a></p>
+  </div>
+  <div class="box" >
+  <p>TERMS & POLICY</p>
+   <p><a href="">Privacy policy</a></p>
+  <p><a href="">Terms & Conditions</a></p>
+  <p><a href="">Refund policy</a></p>
+  <p><a href="">Blogs</a></p>
+  </div>
+</div>
+</section>
+
+
+ <section class="footer">
+		<diV class="icons">
+			<i class="fa fa-facebook"></i>
+			<i class="fa fa-twitter"></i>
+			<i class="fa fa-instagram"></i>
+			<i class="fa fa-linkedin"></i>
+		</diV>
+	</section>
+
+<!----------------------js toggle--------------------------------------->
+<script>
+	var navLinks = document.getElementById("navlinks");
+	function showmenu(){
+		navLinks.style.right = "0";
+
+	}
+	function hidemenu(){
+		navLinks.style.right = "-600px";	
+	}
+
+	//-------------collapse text=------------------//
+	var coll = document.getElementsByClassName("gstbenifits");
+     var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+</body>
+</html>
